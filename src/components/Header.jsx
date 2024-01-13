@@ -1,5 +1,3 @@
-// import logo from "../../public/images/myntra_logo.webp";
-
 import { FaRegHeart } from "react-icons/fa6";
 import { IoBagOutline } from "react-icons/io5";
 import { IoPersonOutline } from "react-icons/io5";
@@ -8,6 +6,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   const bag = useSelector((store) => store.bag.items);
+
   return (
     <header>
       {/* logo  */}
@@ -40,10 +39,10 @@ const Header = () => {
 
       {/* actionbar */}
       <div className="action-bar">
-        <div className="action-container">
+        <Link to="/login" className="action-container">
           <IoPersonOutline />
           <span className="action-name">Profile</span>
-        </div>
+        </Link>
         <div className="action-container">
           <FaRegHeart />
           <span className="action-name">Wishlist</span>

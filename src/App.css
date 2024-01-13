@@ -273,13 +273,9 @@ header {
   border-radius: 2px;
   border-width: 0px;
   padding: 10px 16px;
-  background-color: rgb(255, 63, 108);
+  background-color: #ff3f6c;
   color: rgb(255, 255, 255);
   cursor: pointer;
-}
-.btn-signin {
-  width: 70%;
-  margin-top: 20px;
 }
 
 .bag-item-container {
@@ -377,11 +373,22 @@ header {
 /* ----------------------------------------Login------------------------------------------- */
 
 .login-container {
-  width: 500px;
+  width: 400px;
   margin: auto;
+  padding-top: 30px;
+  padding-bottom: 120px;
   background: #fff;
   border: 1px solid #eaeaec;
   box-shadow: 1px 2px 3px 4px rgba(20, 20, 20, 0.4);
+  margin-top: 120px;
+  margin-bottom: 100px;
+}
+.heading {
+  margin-left: 10%;
+}
+.heading-name {
+  font-weight: 600;
+  font-size: 24px;
 }
 .box {
   display: flex;
@@ -389,7 +396,19 @@ header {
   align-items: center;
 }
 .input-box {
-  width: 350px;
+  width: 320px;
   height: 40px;
   margin-top: 20px;
+  padding-left: 10px;
+}
+.btn-signin {
+  width: 320px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.bottom-box {
+  margin-top: 20px;
+}
+.strng {
+  color: #ff3f6c;
 }
